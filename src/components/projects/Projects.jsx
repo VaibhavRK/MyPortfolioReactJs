@@ -49,18 +49,18 @@ const project_data = [
   },
 ]
 
-const Projects = () => {
+const Projects = ({dark}) => {
   return (
     <section id='projects'>
-      <h5>My Recent Work</h5>
-      <h1>Projects</h1>
+      <h5 style={!dark ? {color:'#2c2c6c'}:{}}>My Recent Work</h5>
+      <h1 style={!dark ? {color:'#1f1f38'}:{}}>Projects</h1>
 
       <div className="container project_container">
 
        {
          project_data.map((ele)=>{
            return (
-              <article className="project_item">
+              <article className={dark ? 'project_item' : 'project_item project-item-theme'}>
                 <div className="project_item-image">
                   <img src={ele.Blog_Img} alt="blog-img" />
                 </div>

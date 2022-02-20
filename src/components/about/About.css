@@ -85,8 +85,8 @@
 }
 
 /* =========================== SMALL DEVICES ========================== */
-  
-  @media screen and (max-width:600px) {
+
+@media screen and (max-width:600px) {
     .about-me{
         width: 65%;
         margin: 0 auto 3rem;
@@ -105,9 +105,45 @@
     .about_content{
         text-align: center;
     }
-
+    
     .about_content p{
         margin: 1.5rem 0;
     }
+    
+}
 
-  }
+/* =========================== Theme Change ========================== */
+
+
+.about-me-theme{
+   color: var(--color-bg-variant);
+   font-size: 800;
+}
+ 
+.card-about-theme-change{
+    background: var(--color-primary);
+}
+
+.card-about-theme-change:hover{
+    background: var(--color-bg-variant);
+}
+
+.card-about-theme-change h5, .card-about-theme-change small{
+    color: var(--color-bg-variant);
+}
+
+.card-about-theme-change:hover h5{
+    color: white;
+}
+
+.card-about-theme-change:hover small{
+    color: white;
+}
+
+.contact-lets-talk-theme{
+    border: 2px solid transparent;
+}
+
+.contact-lets-talk-theme:hover{
+    border: 2px solid var(--color-bg-variant);
+}

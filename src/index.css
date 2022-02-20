@@ -137,3 +137,45 @@ img{
     margin-bottom: 2rem;
   }
 }
+
+/* =========================== Light Theme Class ========================== */
+
+.body-light{
+  background-color: var(--color-white);
+}
+
+.header-theme h5{
+   color: var(--color-bg-variant);
+}
+
+.header-theme h1{
+   color: var(--color-bg);
+}
+
+.cta-btn-hover{
+   background-color: var(--color-light);
+}
+.cta-btn-hover:hover{
+  background-color: var(--color-bg);
+  color: white;
+}
+
+.cta-btn-hover2{
+  font-weight: 500;
+}
+.cta-btn-hover2:hover{
+  background-color: var(--color-bg);
+  color: white;
+}
+
+.header-scroll-theme{
+  font-weight: 500;
+}
+
+.header-scroll-theme:hover{
+  color: var(--color-bg);
+  font-weight: 600;
+}
+
+/* ABOUT SECTION */
+

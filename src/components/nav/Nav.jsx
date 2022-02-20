@@ -2,10 +2,12 @@ import React from 'react';
 import './Nav.css';
 import {AiOutlineHome, AiOutlineUser, AiOutlineProject, AiOutlineMessage} from 'react-icons/ai';
 import {BiBook} from 'react-icons/bi';
+
 import { useState } from 'react';
 
 const Nav = () => {
   const [active,setActive] = useState('#');
+  
   return (
     <nav>
       <a href="#" onClick={()=>setActive('#')} className={active === '#' ? 'nav-active' : ""} > <AiOutlineHome /> </a>

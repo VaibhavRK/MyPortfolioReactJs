@@ -1,17 +1,27 @@
-import React from 'react';
+import React, {useState,useEffect} from 'react';
 import './Experience.css';
 import {BsPatchCheckFill} from 'react-icons/bs';
 
-const Experience = () => {
+const Experience = ({dark}) => {
+  
+  let [n,setn] = useState(0);
+
+  useEffect(()=>{
+      if(n > 0){
+        //  document.querySelector('.experience_frontend').classList.add('exp-cont-theme');
+      }
+      setn(++n);
+  },[dark]);
+
   return (
     <section id='experience'>
-      <h5>What Skills I Have</h5>
-      <h2>My Experience</h2>
+      <h5 style={!dark ? {color:'#2c2c6c'}:{}}>What Skills I Have</h5>
+      <h2 style={!dark ? {color:'#1f1f38',fontWeight:700}:{}}>My Experience</h2>
 
-        <div className="container experience_container">
+        <div className={dark ? "container experience_container":"container experience_container experience-container-theme"}>
 
-          <div className="experience_frontend">
-            <h3>Frontend Developement</h3>
+          <div className={dark ? '': 'experience_frontend'}>
+            <h3 style={!dark ? {color:'white'}:{}} >Frontend Developement</h3>
             <div className="experience_content">
               <article className="experience_details">
                 <BsPatchCheckFill className='experience_details-icon' />
@@ -58,8 +68,8 @@ const Experience = () => {
             </div>
           </div>
           
-          <div className="experience_backend">
-          <h3>Programming Languages & Backend Developement</h3>
+          <div className={dark ? 'experience_backend':'experience_backend experience-theme'}>
+          <h3 style={!dark ? {color:'white'}:{}}>Programming Languages & Backend Developement</h3>
             <div className="experience_content">
               <article className="experience_details">
                 <BsPatchCheckFill className='experience_details-icon' />

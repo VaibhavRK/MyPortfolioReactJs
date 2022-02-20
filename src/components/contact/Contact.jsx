@@ -9,7 +9,7 @@ import emailjs, { send } from '@emailjs/browser';
 import { useState } from 'react';
 
 
-const Contact = () => {
+const Contact = ({dark}) => {
   const form = useRef();
 
   const sendEmail = (e) => {
@@ -26,24 +26,24 @@ const Contact = () => {
   };
   return (
     <section id='contact'>
-       <h5>Get in Touch</h5>
-       <h2>Contact Me</h2>
+       <h5 style={!dark ? {color:'#2c2c6c'}:{}}>Get in Touch</h5>
+       <h2 style={!dark ? {color:'#1f1f38',fontWeight:700}:{}}>Contact Me</h2>
 
        <div className="container contact_container">
           <div className="all-contact-routes">
-             <div className="contact-card">
+             <div className={dark ? "contact-card":"contact-card contact-card-theme"}>
                 <HiOutlineMail size={20} className='contact-card-icons' />
                 <h3>Email</h3>
                 <h4>vaibhavgarg541@gmail.com</h4>
                 <a href='mailto:vaibhavgarg541@gmail.com' target='_blank' rel='noreferrer'>Send a message</a>
              </div>
-             <div className="contact-card">
+             <div className={dark ? "contact-card":"contact-card contact-card-theme"}>
                 <FaFacebookMessenger size={20} className='contact-card-icons' />
                 <h3>Messenger</h3>
                 <h4>Vaibhav Gupta</h4>
                 <a href='https://www.facebook.com/profile.php?id=100065791463692' target='_blank' rel='noreferrer'>Send a message</a>
              </div>
-             <div className="contact-card">
+             <div className={dark ? "contact-card":"contact-card contact-card-theme"}>
                 <RiWhatsappFill size={20} className='contact-card-icons' />
                 <h3>WhatsApp</h3>
                 <h4>+91 8860650528</h4>

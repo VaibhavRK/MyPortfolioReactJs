@@ -2,6 +2,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 2rem;
+    margin-top: 2rem;
 }
 
 
@@ -81,3 +82,19 @@
       }
    }
  
+ /* Change Theme */
+
+.experience-container-theme{
+    display: grid;
+}
+
+.experience-container-theme > div{
+    background: rgb(31, 86, 187);
+    
+}
+
+.experience-container-theme > div:hover{
+    background: var(--color-bg-variant);
+    border-color: var(--color-primary-variant);
+    cursor: default;
+}

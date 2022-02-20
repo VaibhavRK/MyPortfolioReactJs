@@ -1,0 +1,54 @@
+.hide-theme{
+    display: none;
+}  
+
+.light-theme{
+    position: fixed;
+    right: 5rem;
+    top: 5rem;
+    background-color: rgb(255, 136, 0);
+    padding: 1rem;
+    border-radius: 50%;
+    transition: all 400ms ease;
+}
+
+.dark-theme{
+    position: fixed;
+    right: 5rem;
+    top: 5rem;
+    background-color: rgb(84, 83, 87);
+    padding: 1rem;
+    border-radius: 50%;
+    transition: all 400ms ease;
+}
+
+@keyframes theme-anime{
+    0%{
+        transform: translateX(30px);
+    }
+    100%{
+        transform: translateX(-30px);
+    }
+    
+}
+
+/* =========================== MEDIUM DEVICES ========================== */
+
+/* @media screen and (max-width:1024px) {
+    
+} */
+  
+  /* =========================== SMALL DEVICES ========================== */
+    
+@media screen and (max-width:600px) {
+    .light-theme{
+        top: 1rem;
+        right: 1rem;
+        padding: 0.5rem;
+    }
+    .dark-theme{
+        top: 1rem;
+        right: 1rem;
+        padding: 0.5rem;
+    }
+}
