@@ -47,7 +47,7 @@ const Contact = () => {
                 <RiWhatsappFill size={20} className='contact-card-icons' />
                 <h3>WhatsApp</h3>
                 <h4>+91 8860650528</h4>
-                <a href='https://api.whatsapp.com/send?phone=80860650528' target='_blank' rel='noreferrer'>Send a message</a>
+                <a href='https://api.whatsapp.com/send?phone=8860650528' target='_blank' rel='noreferrer'>Send a message</a>
              </div>
           </div>
 
