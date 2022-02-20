@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/MyPortfolioReactJs/static/css/main.8a511550.css",
-    "main.js": "/MyPortfolioReactJs/static/js/main.19509edc.js",
+    "main.css": "/MyPortfolioReactJs/static/css/main.ca14a736.css",
+    "main.js": "/MyPortfolioReactJs/static/js/main.ee66298f.js",
     "static/media/goku.png": "/MyPortfolioReactJs/static/media/goku.6a9b1ff5cc3ca00f801a.png",
     "static/media/goku_card.jpg": "/MyPortfolioReactJs/static/media/goku_card.8d26560aa3fba3834515.jpg",
     "static/media/todolist.png": "/MyPortfolioReactJs/static/media/todolist.dfae1499293a0eb890f3.png",
@@ -10,11 +10,11 @@
     "static/media/CV.pdf": "/MyPortfolioReactJs/static/media/CV.721c118ec31ddf6a3633.pdf",
     "static/media/blog-img.jpeg": "/MyPortfolioReactJs/static/media/blog-img.a76bd098ddad0b2c2a3a.jpeg",
     "index.html": "/MyPortfolioReactJs/index.html",
-    "main.8a511550.css.map": "/MyPortfolioReactJs/static/css/main.8a511550.css.map",
-    "main.19509edc.js.map": "/MyPortfolioReactJs/static/js/main.19509edc.js.map"
+    "main.ca14a736.css.map": "/MyPortfolioReactJs/static/css/main.ca14a736.css.map",
+    "main.ee66298f.js.map": "/MyPortfolioReactJs/static/js/main.ee66298f.js.map"
   },
   "entrypoints": [
-    "static/css/main.8a511550.css",
-    "static/js/main.19509edc.js"
+    "static/css/main.ca14a736.css",
+    "static/js/main.ee66298f.js"
   ]
 }
