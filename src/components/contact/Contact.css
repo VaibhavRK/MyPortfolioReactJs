@@ -1,0 +1,132 @@
+
+.contact_container{
+    display: flex;
+    gap: 15rem;
+    margin-top: 3rem;
+}
+
+.all-contact-routes{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.contact-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    background: var(--color-bg-variant);
+    border-radius: 2rem;
+    transition: var(--transition);
+    border: 1px solid transparent;
+}
+
+.contact-card:hover{
+    background: transparent;
+    border: 1px solid var(--color-primary);
+}
+
+.contact-card h3{
+    font-size: 1rem;
+}
+
+.contact-card h4{
+    font-size: 0.8rem;
+    margin-bottom: 0.5rem;
+}
+
+.contact-card-icons{
+    margin-bottom: 0.5rem;
+}
+
+.contact-form form{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.contact-form input{
+    padding: 1.3rem;
+    background: transparent;
+    border: 2px solid var(--color-bg-variant);
+    border-radius: 1rem;
+    width: 40vw;
+}
+
+.contact-form textarea{
+    padding: 1.3rem;
+    background: transparent;
+    border: 2px solid var(--color-bg-variant);
+    border-radius: 1rem;
+    width: 40vw;
+    resize: none;
+    height: 7rem;
+}
+
+.contact-form textarea:focus{
+    outline: 0;
+    border-color: var(--color-primary);
+}
+.contact-form input:focus{
+    outline: 0;
+    border-color: var(--color-primary);
+}
+
+.contact-send-btn{
+    text-align: center;
+    width: 8rem;
+    border-radius: 0.6rem;
+    border-width: 0;
+    padding: 0.8rem;
+    background: var(--color-primary);
+    color: var(--color-bg);
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: -0.8rem;
+    transition: all 0.5s ease;
+    border: 1px solid transparent;
+}
+
+.contact-send-btn:hover{
+    background: transparent;
+    color: var(--color-primary);
+    border: 1px solid var(--color-primary);
+}
+
+.contact-card a{
+    font-size: 0.8rem;
+}
+
+/* =========================== MEDIUM DEVICES ========================== */
+
+@media screen and (max-width:1024px) {
+    .contact_container{
+        gap: 7rem;
+    }
+
+    .contact-form input, .contact-form textarea{
+        width: 28rem;
+    }
+ 
+ }
+ 
+ /* =========================== SMALL DEVICES ========================== */
+   
+   @media screen and (max-width:600px) {
+    .contact_container{
+        flex-direction: column;
+        gap: 4rem;
+    }
+
+    .contact-form input, .contact-form textarea{
+        width: 80vw;
+    }
+    
+    .contact-send-btn{
+        display: inline-block;
+        margin: auto;
+    }
+}
+ 

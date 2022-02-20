@@ -1,0 +1,56 @@
+.footer-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    background: var(--color-primary);
+    width: 100%;
+    margin-top: 2rem;
+}
+
+.footer-container h1{
+    margin-top: 2rem;
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--color-bg);
+}
+
+.all-pages{
+    display: flex;
+    gap: 3rem;
+}
+
+.all-pages li a{
+    color: var(--color-bg);
+}
+
+.footer-social-icons{
+    display: flex;
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+
+.footer-container small{
+    margin-bottom: 6rem;
+}
+
+/* =========================== MEDIUM DEVICES ========================== */
+
+@media screen and (max-width:1024px) {
+    .footer-container{
+        width: 107%;
+    }
+ }
+ 
+ /* =========================== SMALL DEVICES ========================== */
+   
+@media screen and (max-width:600px) {
+    .footer-container{
+        width: 99vw;
+    }
+    .all-pages{
+        flex-direction: column;
+        gap: 1rem;
+    }
+}
