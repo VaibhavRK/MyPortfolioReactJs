@@ -49,7 +49,7 @@ const About = ({dark}) => {
           </div>
 
           <p style={!dark ? {color:'#2c2c6c'}:{} } >
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus officiis iure qui labore! Sint corrupti iusto laborum sit ex consequuntur repellat ab praesentium nemo esse maxime qui perferendis id, soluta placeat cumque similique quos laudantium cupiditate? Aut autem explicabo harum aliquam et sunt reiciendis nisi sapiente odio adipisci
+            I am a BTech Student doing graduation from IIT BHU. I love to code and create creative things. I am good in javascript & c++. I am doing projects from 6 months. I know both frontend and backend part but to be honest i have more interest in developing backend part of application. I am passionate about my work and i always try to give my 100% to the work.
           </p>
 
           <a href="#contact" className='btn btn-primary' id='contact-lets-talk'> Let's Talk </a>

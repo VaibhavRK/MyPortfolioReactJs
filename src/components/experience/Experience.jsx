@@ -109,8 +109,8 @@ const Experience = ({dark}) => {
               <article className="experience_details">
                 <BsPatchCheckFill className='experience_details-icon' />
                 <div>
-                <h4>MySQL</h4>
-                <small className='text-light'>Basic</small>
+                <h4>Express Js</h4>
+                <small className='text-light'>Experienced</small>
                 </div>
               </article>
             </div>

@@ -6,6 +6,7 @@ import Weather_img from '../../assets/weatherApp.jpg';
 import CSI_img from '../../assets/CSI-Logo.png';
 import Covid_img from '../../assets/covid.jpg';
 import Todo_img from '../../assets/todolist.png';
+import Back_Api_img from '../../assets/back_api.png';
 
 import 'swiper/css/bundle';
 import 'swiper/css/navigation';
@@ -30,23 +31,23 @@ const project_data = [
     id: 3,
     Blog_Img: CSI_img,
     Project_title: "CSI Website (Group project)",
-    github: "",
-    liveUrl: ""
+    github: "https://github.com/omprakash1999mina/Csi_website/tree/main",
+    liveUrl: "https://csi-website-two.vercel.app/"
   },
   {
     id: 4,
-    Blog_Img: Covid_img,
-    Project_title: "Covid Project (HTML CSS Javascript) (Group Project)",
-    github: "https://github.com/VaibhavRK/covid19_website",
-    liveUrl: "https://vaibhavrk.github.io/covid19_website/"
-  },
-  {
-    id: 5,
     Blog_Img: Todo_img,
     Project_title: "Todo List (Simple Project for Learning)",
     github: "https://github.com/VaibhavRK/reactToDoList",
     liveUrl: "https://vaibhavrk.github.io/reactToDoList/"
   },
+  {
+    id: 5,
+    Blog_Img: Back_Api_img,
+    Project_title: "Converting Excel file data into API and save to the database",
+    github: "https://github.com/VaibhavRK/petBackend",
+    liveUrl: "https://pet-app-fastjob.herokuapp.com/api"
+  }
 ]
 
 const Projects = ({dark}) => {

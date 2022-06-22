@@ -4,8 +4,8 @@
 
 .light-theme{
     position: fixed;
-    right: 5rem;
-    top: 5rem;
+    right: 3rem;
+    top: 2rem;
     background-color: rgb(255, 136, 0);
     padding: 1rem;
     border-radius: 50%;
@@ -14,8 +14,8 @@
 
 .dark-theme{
     position: fixed;
-    right: 5rem;
-    top: 5rem;
+    right: 3rem;
+    top: 2rem;
     background-color: rgb(84, 83, 87);
     padding: 1rem;
     border-radius: 50%;
@@ -44,7 +44,7 @@
     .light-theme{
         top: 1rem;
         right: 1rem;
-        padding: 0.5rem;
+        padding: 0.2rem;
     }
     .dark-theme{
         top: 1rem;

@@ -22,7 +22,7 @@ const Header = ({dark}) => {
     <div className='container header_container'>
         <h5>Hello I'm</h5>
         <h1>Vaibhav Gupta</h1>
-        <h5 className="text-light">FullStack Developer</h5>
+        <h5 className="text-light">FullStack MERN Developer</h5>
         <CTA className='cta' dark={dark} />
 
         <div className="me">

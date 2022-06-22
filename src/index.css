@@ -29,8 +29,22 @@ html{
   scroll-behavior: smooth;
 }
 
---webkit-scrollbar{
+/* --webkit-scrollbar{
   display: none;
+} */
+
+::-webkit-scrollbar{
+  width: 0.7rem;
+}
+
+::-webkit-scrollbar-track{
+  background: #2171ea;
+}
+
+::-webkit-scrollbar-thumb{
+  background: rgb(11, 171, 230);
+  border-radius: 0.5rem;
+  border: 1px solid rgb(11, 37, 230);
 }
 
 code {

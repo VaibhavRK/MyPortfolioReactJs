@@ -31,8 +31,8 @@ function App() {
 
   return (
     <div className="App">
-       <BsSunFill className={dark ? 'light-theme':'hide-theme'} size={50}  onClick={handleTheme}  />
-       <BsMoonStarsFill className={!dark ? 'dark-theme':'hide-theme'} size={40}  onClick={handleTheme} />
+       <BsSunFill className={dark ? 'light-theme':'hide-theme'} size={40} style={{cursor:'pointer'}}  onClick={handleTheme}  />
+       <BsMoonStarsFill className={!dark ? 'dark-theme':'hide-theme'} size={40} style={{cursor:'pointer'}}  onClick={handleTheme} />
        <Header dark={dark} />
        <Nav />
        <About dark={dark} />
