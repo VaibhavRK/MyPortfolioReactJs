@@ -68,7 +68,7 @@ const Projects = ({dark}) => {
                 <h3 className='text-light'>{ele.Project_title}</h3>
                 <div className="project_item-cta">
                   <a href={ele.github} target='_blank' className='btn' >Github</a>
-                  <a href={ele.liveUrl} target='_blank' className='btn btn-primary' target='_blank' > Live Demo </a>
+                  <a href={ele.liveUrl} target='_blank' className='btn btn-primary' > Live Demo </a>
                 </div>
               </article>
            )
