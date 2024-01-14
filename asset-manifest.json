@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/MyPortfolioReactJs/static/css/main.f2e3bf93.css",
-    "main.js": "/MyPortfolioReactJs/static/js/main.28a46b79.js",
+    "main.js": "/MyPortfolioReactJs/static/js/main.49af2aec.js",
     "static/media/vaibhav_front.png": "/MyPortfolioReactJs/static/media/vaibhav_front.fe2d2a83f8f773da6390.png",
     "static/media/todolist.png": "/MyPortfolioReactJs/static/media/todolist.dfae1499293a0eb890f3.png",
     "static/media/vaibhav_card.jpg": "/MyPortfolioReactJs/static/media/vaibhav_card.40b85a7aae1a50c05d1c.jpg",
@@ -11,10 +11,10 @@
     "static/media/back_api.png": "/MyPortfolioReactJs/static/media/back_api.065978e8234c45e84f86.png",
     "index.html": "/MyPortfolioReactJs/index.html",
     "main.f2e3bf93.css.map": "/MyPortfolioReactJs/static/css/main.f2e3bf93.css.map",
-    "main.28a46b79.js.map": "/MyPortfolioReactJs/static/js/main.28a46b79.js.map"
+    "main.49af2aec.js.map": "/MyPortfolioReactJs/static/js/main.49af2aec.js.map"
   },
   "entrypoints": [
     "static/css/main.f2e3bf93.css",
-    "static/js/main.28a46b79.js"
+    "static/js/main.49af2aec.js"
   ]
 }
