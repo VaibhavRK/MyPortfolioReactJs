@@ -16,8 +16,8 @@ const project_data = [
     id: 1,
     Blog_Img: Blog_img,
     Project_title: "Blog Web Application (MERN)",
-    github: "https://dashboard.heroku.com/apps/mernblogweb",
-    liveUrl: "https://dashboard.heroku.com/apps/mernblogweb"
+    github: "https://github.com/VaibhavRK/ReactBlogWeb",
+    liveUrl: "https://github.com/VaibhavRK/ReactBlogWeb"
   },
   {
     id: 2,
@@ -29,7 +29,7 @@ const project_data = [
   {
     id: 3,
     Blog_Img: WhatsApp_Clone_img,
-    Project_title: "WhatsaApp Clone",
+    Project_title: "WhatsApp Clone",
     github: "https://github.com/VaibhavRK/WhatsAppClone",
     liveUrl: "https://whatsapp-clone-lime.vercel.app/"
   },
