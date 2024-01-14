@@ -3,8 +3,7 @@ import './Projects.css';
 
 import Blog_img from '../../assets/blog-img.jpeg';
 import Weather_img from '../../assets/weatherApp.jpg';
-import CSI_img from '../../assets/CSI-Logo.png';
-import Covid_img from '../../assets/covid.jpg';
+import WhatsApp_Clone_img from '../../assets/whatsapp_clone.png';
 import Todo_img from '../../assets/todolist.png';
 import Back_Api_img from '../../assets/back_api.png';
 
@@ -18,7 +17,7 @@ const project_data = [
     Blog_Img: Blog_img,
     Project_title: "Blog Web Application (MERN)",
     github: "https://dashboard.heroku.com/apps/mernblogweb",
-    liveUrl: "https://mernblogweb.herokuapp.com/"
+    liveUrl: "https://dashboard.heroku.com/apps/mernblogweb"
   },
   {
     id: 2,
@@ -29,10 +28,10 @@ const project_data = [
   },
   {
     id: 3,
-    Blog_Img: CSI_img,
-    Project_title: "CSI Website (Group project)",
-    github: "https://github.com/omprakash1999mina/Csi_website/tree/main",
-    liveUrl: "https://csi-website-two.vercel.app/"
+    Blog_Img: WhatsApp_Clone_img,
+    Project_title: "WhatsaApp Clone",
+    github: "https://github.com/VaibhavRK/WhatsAppClone",
+    liveUrl: "https://whatsapp-clone-lime.vercel.app/"
   },
   {
     id: 4,
