@@ -1,11 +1,11 @@
 import React, {useState,useEffect} from 'react';
 import './About.css';
-import ABOUTME from '../../assets/goku_card.jpg'
+import ABOUTME from '../../assets/vaibhav_card.jpg'
 import { FaAward } from 'react-icons/fa'
 import { FiUsers } from 'react-icons/fi'
 import { AiOutlineFundProjectionScreen } from 'react-icons/ai'
 
-const About = ({dark}) => {
+const About = ({dark}) => { 
   let [n,setn] = useState(0);
 
   useEffect(()=>{
