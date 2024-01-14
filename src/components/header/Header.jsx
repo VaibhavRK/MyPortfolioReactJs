@@ -1,7 +1,7 @@
 import React from 'react';
 import CTA from './CTA';
 import './Header.css';
-import ME from '../../assets/goku.png';
+import ME from '../../assets/vaibhav_front.png';
 import SocialIcons from './SocialIcons';
 import { useEffect,useState } from 'react';
 
