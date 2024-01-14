@@ -49,7 +49,7 @@ const About = ({dark}) => {
           </div>
 
           <p style={!dark ? {color:'#2c2c6c'}:{} } >
-            I am a BTech Student doing graduation from IIT BHU. I love to code and create creative things. I am good in javascript & c++. I am doing projects from 6 months. I know both frontend and backend part but to be honest i have more interest in developing backend part of application. I am passionate about my work and i always try to give my 100% to the work.
+            I am a passionate BTech student at IIT BHU, dedicated to crafting innovative solutions through code. Proficient in both JavaScript and C++, my journey in project development spans six months, where I've honed skills in both frontend and backend realms. While I possess competence in creating engaging frontend interfaces, my heart lies in backend development, where I find my true passion.
           </p>
 
           <a href="#contact" className='btn btn-primary' id='contact-lets-talk'> Let's Talk </a>
