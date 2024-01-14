@@ -1,21 +1,20 @@
 {
   "files": {
     "main.css": "/MyPortfolioReactJs/static/css/main.f2e3bf93.css",
-    "main.js": "/MyPortfolioReactJs/static/js/main.bbe6957c.js",
-    "static/media/goku.png": "/MyPortfolioReactJs/static/media/goku.6a9b1ff5cc3ca00f801a.png",
+    "main.js": "/MyPortfolioReactJs/static/js/main.28a46b79.js",
+    "static/media/vaibhav_front.png": "/MyPortfolioReactJs/static/media/vaibhav_front.fe2d2a83f8f773da6390.png",
     "static/media/todolist.png": "/MyPortfolioReactJs/static/media/todolist.dfae1499293a0eb890f3.png",
-    "static/media/CSI-Logo.png": "/MyPortfolioReactJs/static/media/CSI-Logo.43a300cbc002ef94830e.png",
-    "static/media/covid.jpg": "/MyPortfolioReactJs/static/media/covid.4442cfef7f16e4873050.jpg",
     "static/media/vaibhav_card.jpg": "/MyPortfolioReactJs/static/media/vaibhav_card.40b85a7aae1a50c05d1c.jpg",
+    "static/media/whatsapp_clone.png": "/MyPortfolioReactJs/static/media/whatsapp_clone.3bb09f63945884f5372a.png",
     "static/media/CV.pdf": "/MyPortfolioReactJs/static/media/CV.c13582dc30ffffb7790c.pdf",
     "static/media/blog-img.jpeg": "/MyPortfolioReactJs/static/media/blog-img.a76bd098ddad0b2c2a3a.jpeg",
     "static/media/back_api.png": "/MyPortfolioReactJs/static/media/back_api.065978e8234c45e84f86.png",
     "index.html": "/MyPortfolioReactJs/index.html",
     "main.f2e3bf93.css.map": "/MyPortfolioReactJs/static/css/main.f2e3bf93.css.map",
-    "main.bbe6957c.js.map": "/MyPortfolioReactJs/static/js/main.bbe6957c.js.map"
+    "main.28a46b79.js.map": "/MyPortfolioReactJs/static/js/main.28a46b79.js.map"
   },
   "entrypoints": [
     "static/css/main.f2e3bf93.css",
-    "static/js/main.bbe6957c.js"
+    "static/js/main.28a46b79.js"
   ]
 }
